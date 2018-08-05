@@ -1,0 +1,12 @@
+
+#!/bin/bash
+while true; do
+    date
+    echo
+    echo
+    curl haydenserver:8080
+    echo
+    echo
+    sleep 3
+        
+done
